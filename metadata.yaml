@@ -1,6 +1,16 @@
-name: helloworld # 插件唯一识别名，以 astrbot_plugin_ 前缀开头
-display_name: helloworld # 用于展示的名字，可以是方便人类阅读的名字（需要版本 >= v4.5.0，低版本不会报错，请放心填写）
-desc: AstrBot 插件示例。 # 插件简短描述
-version: v1.3.0 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+# 插件名称（唯一标识，与仓库名一致）
+name: astrbot_plugin_rhodes_island_guard
+# 插件展示名（在WebUI中显示的名称）
+display_name: 罗德岛协议助手
+# 插件版本
+version: 0.1.0
+# 插件描述
+desc: 辅助游玩《明日方舟》卫戍协议活动的插件，提供协议查询、推荐等功能。
+# 作者
+author: kkky
+# 依赖的AstrBot版本（建议填写）
+astrbot_version: ">=4.16"
+# 声明支持的平台（可选）
+support_platforms:
+  - aiocqhttp  # 如果你主要使用QQ，保留这个
+  - telegram   # 其他平台按需添加
